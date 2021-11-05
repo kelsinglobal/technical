@@ -13,8 +13,13 @@
     'website': 'https://Odoo.com',
     'category': 'Trining',
     'depends': ['base'],
-    'data':[        
+    'data':[  
+        'views/course_views.xml',
+        'views/academy_menuitems.xml',
+        'security/academy_security.xml',
+        'security/ir.model.access.csv',
     ],
-    'demo':[        
+    'demo':[ 
+        'demo/academy_demo.xml',
     ],
 }
