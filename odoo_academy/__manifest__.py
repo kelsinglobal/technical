@@ -12,11 +12,12 @@
     'author': 'Odoo',
     'website': 'https://Odoo.com',
     'category': 'Trining',
-    'depends': ['base'],
+    'depends': ['sale'],
     'data':[  
         'views/course_views.xml',
         'views/session_views.xml',
         'views/academy_menuitems.xml',
+        'views/sale_views_inherit.xml',
         'security/academy_security.xml',
         'security/ir.model.access.csv',
     ],
